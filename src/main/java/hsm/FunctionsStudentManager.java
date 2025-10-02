@@ -1,4 +1,4 @@
-package HashSetStudentManager;
+package hsm;
 
 public interface FunctionsStudentManager {
     void addAStudent(Student student);

@@ -1,8 +1,7 @@
-package HashSetStudentManager;
+package hsm;
 
 import java.util.Arrays;
 import java.util.Objects;
-import java.util.Random;
 
 public class Student {
     protected int id;

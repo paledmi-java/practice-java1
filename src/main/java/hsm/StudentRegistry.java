@@ -1,4 +1,4 @@
-package HashSetStudentManager;
+package hsm;
 
 import java.util.ArrayList;
 import java.util.HashSet;
