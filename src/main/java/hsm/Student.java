@@ -14,6 +14,10 @@ public class Student {
         id = counter++;
     }
 
+    public String getName(){
+        return name;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;

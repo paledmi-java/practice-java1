@@ -20,6 +20,14 @@ public class StudentRegistry implements FunctionsStudentManager, Iterable<Studen
         totalStudents ++;
     }
 
+    public int getTotalStudents(){
+        return totalStudents;
+    }
+
+    public Set<Student> getStudentsSet(){
+        return studentsSet;
+    }
+
 //    @Override
 //    public void removeAStudentById(int id) {
 //        for(Student student : studentsSet){
